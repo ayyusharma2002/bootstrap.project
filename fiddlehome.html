@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!--bootstrap link-->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        
+        <!--javascript link-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <!--css only-->
+        <style>
+            .weblogo{
+                width: 30%;
+            }
+            .navbar-nav li{
+                padding: 0 5px;
+
+            }
+            .navbar-nav li a{
+                color: #ffff!important;
+                font-weight: 600;
+                font-size: 20px;
+            }
+            .navbar
+            {
+                background: #00000091;
+            }
+            .a{
+            	text-align: center;
+            padding-top: 15px;
+            text-transform: uppercase;
+            font-family: 'prague';
+            letter-spacing: 2px;
+            font-size: 40px;
+            padding-top: 15px;
+
+            }
+            .b{
+            	text-align: center;
+            padding-top: 15px;
+            text-transform: uppercase;
+            font-family: 'prague';
+            letter-spacing: 2px;
+            font-size: 40px;
+            padding-top: 15px;
+            color: white;
+            margin-top: 70px;
+
+            }
+            .c{
+            	text-align: center;
+            	padding-top: 20px;
+                text-transform: uppercase;
+                font-family: 'prague';
+                letter-spacing: 3px;
+            }
+
+            .d{
+            	text-align: center;
+            	padding-top: 40px;
+                text-transform: uppercase;
+                font-family: 'prague';
+                letter-spacing: 3px;
+
+            }
+            .e{
+            	 font-family: 'prague';
+            font-size: 2rem;
+            line-height: 50px;
+            letter-spacing: 1px;
+            color: #fff;
+            padding-top: 40px;
+            }
+            
+            .img {
+            width: 100%;
+            height: 400px;
+            }
+            .img1{
+            	width: 100%;
+            	height: 400px;
+            	box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+            }
+            .img2{
+            	width: 45%;
+            margin-top: 30px;
+
+
+            }
+            .p{
+            	font-size: 16px;
+            	font-family: 'Montserrat',sans-serif;
+            	text-align: justify !important;
+            line-height: 35px;
+            padding-top: 10px;
+            word-spacing: 1px;
+            padding-right: 5px;
+           
+            }
+            
+            .p1{
+            padding-top: 10px;
+            text-transform: uppercase;
+            font-family: 'prague';
+            letter-spacing: 3px;
+            text-align: center;
+        	color: white;
+        	letter-spacing: 0.5px;
+        	font-size: 16px;
+        	margin-top: 5px;
+            margin-bottom: 1rem;
+
+            }
+            .p2{
+            	font-size: 15px;
+                line-height: 35px;
+                letter-spacing: 1px;
+                word-spacing: 2px;
+                margin-top: 15px;
+                text-align: justify;
+
+            }
+            .p3{
+            	font-size: 15px;
+                line-height: 35px;
+                letter-spacing: 1px;
+                word-spacing: 2px;
+                margin-top: 15px;
+                text-align: justify;
+
+            }
+            .p4{
+            
+        	color: white;
+        	letter-spacing: 1px;
+        	line-height: 30px;
+        	font-size: 19px;
+        	font-family:'prague';
+        	margin-top: 20px;
+            margin-bottom: 1rem;
+            }
+            .p5{
+            	color: #fff;
+            font-size: 16px;
+            font-family: 'prague';
+            letter-spacing: 1px;
+
+            }
+            .first{
+            	background-image: url(https://www.firstfiddle.in/assets/images/gamebanner.jpg);
+            	width: 100%;
+            	height: 450px;
+            	background-position:center;
+            	background-size: cover;
+            	margin-top: 50px;
+            }
+            .strong{
+        font-weight: bold;
+        color: #fcb21b;
+        box-sizing: border-box;
+        font-size: 18px;
+
+        }
+        .center12{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .moblogo{
+            display: none;
+        }
+        @media(max-width: 768px)
+        {
+            .moblogo{
+                display: block;
+            }
+            .weblogo{
+                display: none;
+            }
+            .navbar{
+                background: #fdb71b;
+            }
+        }
+        </style>
+
+</head>
+<body>
+	 <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+	 	 <div class="container-fluid">
+            <a href="navbar-brand">
+                <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="weblogo">
+                <img src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png" class="moblogo">
+            </a>
+            <!--mobile view-->
+            <button class="navbar-toggler" data-bs-target="#a" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!--mobile view end-->
+            <!--menu start-->
+            <div class="navbar-collapse collapse" id="a">
+                <ul class="navbar-nav ms-auto center12">
+                    <li><a href="" class="nav-link">HOME</a></li>
+                    <li><a href="" class="nav-link">ABOUT</a></li>
+                    <li><a href="fiddlebrands.html" class="nav-link">BRANDS</a></li>
+                    <li><a href="" class="nav-link">OUR TEAM</a></li>
+                    <li><a href="" class="nav-link">PRESS RELEASE</a></li>
+                    <li><a href="" class="nav-link">CONTACT</a></li>
+                    <li><a href="" class="nav-link">CAREERS</a></li>
+                </ul>
+            </div><!--menu end-->
+            
+        </div><!--containerfluid end-->
+        
+    </nav>
+    <img src="https://www.firstfiddle.in/assets/images/new-about-us-1.jpg" style="width: 100%;">
+
+    <!--container fluid start-->
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="a">ONCE UPON<b style="color: #fbaa1a;" >AN AFFAIRE</b></h2>
+            <div class="row">
+                <div class="col-md-7">
+                    <p class="p">First Fiddle Restaurants, formerly known as The Lazeez Affaire Group, was conceived in the year 1999 by Priyank Sukhija and Y.P. Ashok. Since then, the company has made a name for itself as innovators and leaders in the industry. Starting with their first brand, Lazeez Affaire, Priyank popularised the conceptof fine dining at a time when the same was unheard of. Following its success, First Fiddle introduced the concept of casual dining with brands such as Warehouse Cafe, Tamasha, Lord of The Drinks, Flying Saucer Cafe, and more, storming Delhi’s nightlife. WIth each new brand, First Fiddle brought a concept that was never experienced or heard of before, such as Plum by Bent Chair, Miso Sexy, Diablo, and more. The restaurants are spread all over India in major metropolitan cities like New Delhi, Mumbai, Pune, Lucknow and more, with plans to expand internationally soon.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://www.firstfiddle.in/assets/images/ffabout.png" class="img">
+                </div>
+
+            </div>
+            <!--row end-->
+        </div>
+        <!--container end-->
+    </div>
+     <!--container fluid end-->
+    <!--container fliud end-->
+
+    <!--container fluid start-->
+    <div class="container-fluid first">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-2">
+    				
+    			</div>
+    			<div class="col-md-8">
+    				<h2 class="b">THE GAME CHANGER</h2><br>
+    				<p class="p1">The company is dedicated to being a game changer in the<br> F&B industry with the introduction of ‘concept’ restaurants. It is committed to catering to the ever-<br>changing cosmopolitan taste of its customers & customer satisfaction is an <br>utmost priority.
+    				</p><br>
+    			</div>
+    			<div class="col-md-2">
+    				
+    			</div>
+    		</div>  <!--row end-->
+    		
+    	</div><!--container end-->
+    	
+    </div><!--container fluid end-->
+
+    <!--container start-->
+    <div class="container">
+    	<h2 class="c">THE MAN BEHIND <b style="color: #fbaa1a;" >THE FIDDLE</b></h2>
+    	<!--row start-->
+    	<div class="row">
+    		<div class="col-md-4">
+    			<img src="https://www.firstfiddle.in/assets/images/about/about-priyank.jpg" class="img1">
+    			
+    		</div>
+    		<div class="col-md-8">
+    			<p class="p2">With over 30 restaurants in 23 years under his belt, the prolific restaurateur Priyank Sukhija has become somewhat of a legend in the industry, starting his journey at a mere age of 19. Priyank was the first in his family to venture into business, hailing from a family of lawyers, going on to create an empire in F&B. Following his heart and tongue through his F&B career, Priyank has successfully created some of the most talked-about brands in the industry - Diablo, Lord of the Drinks, Plum by Bent Chair, Lazeez Affaire, Tamasha, The Flying Saucer Cafe, and many more.</p>
+    			
+    		</div>
+    		
+    	</div>
+    	<!--row end-->
+    </div>
+    <!--container end-->
+
+    <!--container start-->
+    <div class="container">
+    	<h2 class="d">JOIN <b style="color: #fbaa1a;" >OUR FAMILY</b></h2>
+    	<!--row start-->
+    	<div class="row">
+    		<div class="col-md-8">
+    			<p class="p3">At First Fiddle Restaurants, we leave no stone unturned to provide the most desirable experience across markets and restaurants. Serving over five lakh customers monthly with 15+ brands and 35+ restaurants, our brands like Diablo, Plum by Bent Chair, Dragonfly Experience, Tamasha, Daddy, JLWA, and more have revolutionized the experience of dining & nightlife for everyone. Exploring a franchise with First Fiddle Restaurants provides you with a large existing customer base besides the added advantage of nation-wide recognition.</p>
+    			 <button class="btn btn-btn-primary" style="color:#ffffff;background-color: #f0b80b; box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)"> 
+    				FRANCHISE WITH US</button>
+    			
+    			
+    		</div>
+    		<div class="col-md-4">
+    			<img src="https://www.firstfiddle.in/assets/images/about/333X3322.jpg" style="width:100%; height: 350px; box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !importan">
+    			
+    		</div>
+    		
+    	</div>
+    	<!--row end-->
+    </div>
+    <!--container end-->
+
+     <!--mainfooter start-->
+    <div class="mainfooter bg-dark">
+        <!--container-fluid start-->
+        <div class="container-fluid">
+            <!--container start-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">  
+                    <a href="">
+                       <center><img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="img2"></center>
+                    </a>
+                    <br><br>  
+                    </div>
+                    <div class="col-md-7">  
+                    <h2 class="e">CONTACT <span style="color:#ffad00;">US</span>
+                        
+                    </h2>
+                    <p class="p4">We're a team focusing on redefining the way the hospitality industry <br>works by bringing in concept based restaurants across India. We are <br>truly committed to catering to the ever-changing cosmopolitan taste of <br>the customer and revolutioning the F & B industry!</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="p5"><strong class="strong">Address</strong><br>
+                             6, Chanakyapuri Shopping Complex, 48, Malcha Marg, New Delhi 110021
+                            </p>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <p class="p5"> <strong class="strong">HR Enquiry</strong><br>
+                                Mobile: <strong class="strong">+91 9999304427</strong><br>
+                                Email: <strong class="strong">careers@firstfiddle.in</strong>
+                            </p>
+                            
+                        </div>
+                        
+                    </div> <!--row end-->
+                     <div class="row">
+                        <div class="col-md-6">
+                            <p class="p5"><strong class="strong">Franchise Enquiry</strong><br>
+                                Mobile: <strong class="strong">+91 9313663486</strong><br>
+                                Email: <strong class="strong">franchise@firstfiddle.in</strong></p>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <p class="p5"><strong class="strong">Other Enquiry</strong><br>
+                            Email: <strong class="strong">customercare@firstfiddle.in</strong></p>
+                            
+                        </div>
+                        
+                    </div> <!--row end-->
+                    </div>
+                    
+                </div>
+                <!--row end-->
+            </div>
+            <!--container end-->
+            </div>
+        <!--container-fluid end-->
+    </div>
+    <!--mainfooter end-->
+
+
+
+
+
+</body>
+</html>
